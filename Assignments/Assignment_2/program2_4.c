@@ -1,4 +1,4 @@
-//Accept two numbers from user and display first number in second number of times
+//4. Accept two numbers from user and display first number in second number of times
 /*
     Input  : 12     5
     Output : 12     12      12      12      12      

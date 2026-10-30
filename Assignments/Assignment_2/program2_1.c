@@ -1,5 +1,4 @@
-
-//1.Accept one number from user and print that number of * on screen
+//1. Accept one number from user and print that number of * on screen
 #include<stdio.h>
 
 void Display(int iNo)
@@ -12,7 +11,7 @@ void Display(int iNo)
     
     while (iCnt < iNo)
     {
-        printf("*");
+        printf(" * ");
         iCnt++;
     }
 }
