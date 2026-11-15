@@ -10,11 +10,11 @@ BOOL ChkEven(int iNo)
 {
     if(iNo % 2 == 0)
     {
-        return 1;
+        return TRUE;
     }
     else
     {
-        return 0;
+        return FALSE;
     }
 }
 
