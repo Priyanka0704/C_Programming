@@ -17,6 +17,10 @@
 
 void Display(int iNo)
 {
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
     switch(iNo)
     {
         case 0:  
