@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void RangeDisplay(int iStart, int iEnd)
+void RangeDisplayRev(int iStart, int iEnd)
 {
     if(iStart > iEnd)
     {
@@ -29,7 +29,7 @@ int main()
     printf("Enter ending point\n");
     scanf("%d",  &iValue2);
 
-    RangeDisplay(iValue1, iValue2);
+    RangeDisplayRev(iValue1, iValue2);
 
     return EXIT_SUCCESS;
 }
