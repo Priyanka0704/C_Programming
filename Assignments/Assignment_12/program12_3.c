@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void DisplayDigit(int iNo)
+int CountTwo(int iNo)
 {
     int iDigit = 0;
     int iCount = 0;
@@ -20,20 +20,20 @@ void DisplayDigit(int iNo)
             iCount++;
         }
     }
-    printf("%d\n", iCount);
-
-    
+    return iCount;
 }
 
 
 int main()
 {
-    int iValue = 0;
+    int iValue = 0,iRet = 0;
 
     printf("Enter Number\n");
     scanf("%d", &iValue);
 
-    DisplayDigit(iValue);
+    iRet = CountTwo(iValue);
+
+    printf("%d\n", iRet);
 
     return EXIT_SUCCESS;
 }
