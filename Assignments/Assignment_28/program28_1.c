@@ -16,9 +16,6 @@ int Difference(int Arr[], int iLength)
             iOddSum = iOddSum + Arr[iCnt];
         }
     }
-    printf("Sum of Even Numbers : %d", iEvenSum);
-    printf("Sum of Odd Numbers : %d", iOddSum);
-
 
     return iEvenSum -iOddSum;
 }
