@@ -28,5 +28,5 @@ int main()
 
     Pattern(iValue1, iValue2);
 
-    return 0;
+    return EXIT_SUCCESS;
 }
